@@ -1,0 +1,168 @@
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_default" />
+    </LinearLayout>
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/home_view_scrol"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_below="@+id/include">
+
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/googleDrawer"
+            android:background="@color/myDrawerBackground">
+
+            <ImageView
+                android:id="@+id/imgBanner"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/boer"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="false"
+                android:transitionName="bannerTran"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtDate"
+                android:textStyle="bold"
+                android:textColor="@color/myPrimaryColor"
+                android:text="22-12-2014"
+                android:layout_gravity="center_horizontal"
+                android:transitionName="dateTran"
+                android:layout_below="@+id/imgBanner"
+                android:layout_alignLeft="@+id/linearLayout2"
+                android:layout_alignStart="@+id/linearLayout2"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtAanvang"
+                android:textColor="@color/myPrimaryColor"
+                android:text="12.00"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:layout_alignRight="@+id/linearLayoutCorener"
+                android:layout_alignEnd="@+id/linearLayoutCorener"
+                android:transitionName="aanvangTran"
+                android:layout_alignBottom="@+id/txtDate"
+                android:layout_marginRight="0dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#ffc7bec7"
+                android:id="@+id/linearLayout2"
+                android:layout_below="@+id/txtDate"
+                android:layout_alignRight="@+id/txtAanvang"
+                android:layout_alignEnd="@+id/txtAanvang"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"></LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:id="@+id/linearLayoutCorener"
+                android:translationZ="4dp"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_marginTop="15dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Boer’n Toss"
+                    android:id="@+id/txtTitle"
+                    android:textColor="@color/myPrimaryColor"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Kom op 12 mei noar de donders gezellige boer’n toss. www.toernooi.nl Naast boer’n toss zulln er donders mooie activiteiten in en om onze keet zijn. Goa daarna met zuppn in ons onmeunig mooie stamkroeg De Tempelier, woar we olderwets de avond afsluutn met een onmeunig mooi feest.   Nederlandse versie: op dinsdag 12 mei is het tijd voor de vierde thematoss van het jaar. Het thema is Boerentoss. Allereerst zal er in Boerenstijl getennist worden en vervolgens zal het feestje in De Tempelier in dezelfde sferen plaatsvinden. Meer informatie zal later volgen… zet de datum alvast in je agenda!"
+                    android:id="@+id/textView"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/myPrimaryColor"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Prijs: €7,50"
+                        android:id="@+id/textView7"
+                        android:textColor="@color/myPrimaryColor"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="40dp"
+                        android:gravity="top"
+                        android:textAlignment="gravity" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Aanmelden"
+                        android:id="@+id/button2"
+                        android:paddingLeft="6dp"
+                        android:paddingRight="6dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+

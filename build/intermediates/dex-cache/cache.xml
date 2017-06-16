@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Luuk\.android\build-cache\023c8b933afb83d1cfeba18eea9d213c58411fda\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7e5aaf6e5768e3a0d75b01c7835b981f51f6794e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Luuk\.android\build-cache\81c5cab21b6f5909662da831b5e238bc73d6da24\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0a0a6a20c303b25983d6812586ea244f8391d0b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Luuk\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-21.0.3_a8cdeb3cb182d8f4e0fb997831b152e39b517785\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="30fe4d3213a655d7ea763177bf2958aa223a2364">
+        <dex dex="C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d94974b3d1c48eaec88de07d10f4201233e14cd1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Luuk\.android\build-cache\cc7811c43fc1eb34ca37d3970ef2ea9348799cc1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_677025ea9fc753322394071d6435e98a9d8b0aab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_579642c67ec9f095afa38fa2a560287fa5d7e7ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Luuk\.android\build-cache\023c8b933afb83d1cfeba18eea9d213c58411fda\output\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-21.0.3_8cdf8499bad416393cd45e23f6f96c69d18a2eb2\classes.dex" />
+    </item>
+
+</items>

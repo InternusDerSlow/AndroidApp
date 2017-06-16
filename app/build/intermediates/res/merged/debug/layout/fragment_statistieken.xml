@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Statistieken"
+        android:id="@+id/training"
+        android:textColor="@color/myPrimaryColor"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="15"
+        android:id="@+id/tijdstip"
+        android:textColor="@color/myPrimaryColor"
+        android:layout_alignTop="@+id/txtExtraInfo"
+        android:layout_alignLeft="@+id/banen"
+        android:layout_alignStart="@+id/banen" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="niet op komen dagen"
+        android:id="@+id/aantalbanen"
+        android:textColor="@color/myPrimaryColor"
+        android:layout_below="@+id/trainer"
+        android:layout_alignLeft="@+id/txtExtraInfo"
+        android:layout_alignStart="@+id/txtExtraInfo"
+        android:layout_marginBottom="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Opgegeven rondes"
+        android:id="@+id/txtExtraInfo"
+        android:textColor="@color/myPrimaryColor"
+        android:layout_below="@+id/training"
+        android:layout_alignLeft="@+id/training"
+        android:layout_alignStart="@+id/training"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="5x"
+        android:id="@+id/banen"
+        android:textColor="@color/myPrimaryColor"
+        android:layout_below="@+id/trainer"
+        android:layout_alignRight="@+id/naam"
+        android:layout_alignEnd="@+id/naam" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Gespeelde rondes"
+        android:id="@+id/trainer"
+        android:textColor="@color/myPrimaryColor"
+        android:layout_below="@+id/txtExtraInfo"
+        android:layout_alignLeft="@+id/aantalbanen"
+        android:layout_alignStart="@+id/aantalbanen"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="11"
+        android:id="@+id/naam"
+        android:textColor="@color/myPrimaryColor"
+        android:layout_marginRight="37dp"
+        android:layout_below="@+id/txtExtraInfo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="37dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Aantal activiteiten bijgewoont"
+        android:id="@+id/textView21"
+        android:textColor="@color/myPrimaryColor"
+        android:layout_below="@+id/aantalbanen"
+        android:layout_alignLeft="@+id/aantalbanen"
+        android:layout_alignStart="@+id/aantalbanen" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="10"
+        android:id="@+id/textView22"
+        android:textColor="@color/myPrimaryColor"
+        android:layout_alignTop="@+id/textView21"
+        android:layout_alignLeft="@+id/banen"
+        android:layout_alignStart="@+id/banen" />
+
+</RelativeLayout>

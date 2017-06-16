@@ -1,0 +1,73 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml:5:5-27:19
+MERGED from [com.android.support:appcompat-v7:21.0.3] C:\Users\Luuk\.android\build-cache\489b9fa59a8fb0f577b0029fbb2fc98da6554431\output\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\Luuk\.android\build-cache\8ef4168512326f40fd097e588483127d9cbd9b7d\output\AndroidManifest.xml:17:5-19:19
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Luuk\.android\build-cache\07b8b36a3c34e9051d7a5af6fce11ca708c5fcdd\output\AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml:8:9-41
+	android:allowBackup
+		ADDED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml:9:9-40
+activity#nl.slowtennis.app.MainActivity
+ADDED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml:10:9-18:20
+	android:label
+		ADDED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml:12:13-45
+	android:name
+		ADDED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml:11:13-58
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml:16:27-74
+activity#nl.slowtennis.app.activiteiten.ActiviteitActivity
+ADDED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml:19:9-22:20
+	android:label
+		ADDED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml:21:13-62
+	android:name
+		ADDED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml:20:13-77
+activity#nl.slowtennis.app.ProfielActivity
+ADDED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml:23:9-26:20
+	android:label
+		ADDED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml:25:13-59
+	android:name
+		ADDED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml:24:13-61
+uses-sdk
+INJECTED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:21.0.3] C:\Users\Luuk\.android\build-cache\489b9fa59a8fb0f577b0029fbb2fc98da6554431\output\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\Luuk\.android\build-cache\8ef4168512326f40fd097e588483127d9cbd9b7d\output\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Luuk\.android\build-cache\07b8b36a3c34e9051d7a5af6fce11ca708c5fcdd\output\AndroidManifest.xml:15:5-42
+	android:targetSdkVersion
+		INJECTED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Luuk\stack\Werkplek\Android applicaties\Projecten\Slow\app\src\main\AndroidManifest.xml
+activity#android.support.v7.widget.TestActivity
+ADDED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\Luuk\.android\build-cache\8ef4168512326f40fd097e588483127d9cbd9b7d\output\AndroidManifest.xml:18:9-115
+	android:label
+		ADDED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\Luuk\.android\build-cache\8ef4168512326f40fd097e588483127d9cbd9b7d\output\AndroidManifest.xml:18:19-59
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\Luuk\.android\build-cache\8ef4168512326f40fd097e588483127d9cbd9b7d\output\AndroidManifest.xml:18:60-113
